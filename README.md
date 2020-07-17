@@ -16,7 +16,11 @@ Simple OBJ display function included.
 Example Usage:</p>
 <code>
     objFileName = 'neutralMesh.obj'
+    
     objObject = OBJData()
+    
     objObject.objRead(objFileName)
+    
     objObject.objShow()    
+    
 </code>
