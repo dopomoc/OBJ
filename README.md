@@ -12,11 +12,11 @@ For info on the OBJ format, see:
 
 NB - not guarantee to cover all features! 
 Simple OBJ display function included.
-</p>
-<p>
-Example Usage:
+
+Example Usage:</p>
+<code>
     objFileName = 'neutralMesh.obj'
     objObject = OBJData()
     objObject.objRead(objFileName)
     objObject.objShow()    
-</p>
+</code>
