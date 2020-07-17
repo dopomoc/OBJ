@@ -14,14 +14,12 @@ NB - not guarantee to cover all features!
 Simple OBJ display function included.
 
 Example Usage:</p>
-<code>
-    
+<code>    
     objFileName = 'neutralMesh.obj'
     
     objObject = OBJData()
     
     objObject.objRead(objFileName)
     
-    objObject.objShow()    
-    
+    objObject.objShow()        
 </code>
