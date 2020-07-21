@@ -10,7 +10,7 @@ Written by Darren Cosker 2020
 For info on the OBJ format, see:
     https://en.wikipedia.org/wiki/Wavefront_.obj_file
 
-NB - not guarantee to cover all features! 
+NB - not guaranteed to cover all features! 
 Simple OBJ display function included.
 
 Example Usage:</p>
