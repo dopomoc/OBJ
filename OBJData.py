@@ -103,7 +103,7 @@ class OBJData:
         
         # Can't get axis equal with plot 3D - so scale accordingly with a box        
         xS =  max([maxY,maxZ]) / maxX
-        yS = 1 #Leave on axis fixed - should be arbitrary
+        yS = 1 #Leave oen axis fixed - selected arbitrarily
         zS = max([maxX,maxY]) / maxZ    
         
         boxX = np.array([minX*xS,maxX*xS,minX*xS,maxX*xS,minX*xS,maxX*xS,minX*xS,maxX*xS])
@@ -112,7 +112,7 @@ class OBJData:
         
         print('Drawing OBJ..')               
         ax = plt.axes(projection="3d")                              
-        ax.plot3D(boxX,boxZ,boxY,'wo')        
+        ax.plot3D(boxX,boxZ,boxY,'w.')        
         ax.plot_trisurf(npVerticesX, npVerticesZ,npVerticesY,triangles = npFacesSplit)
         #ax.plot3D(npVerticesX, npVerticesZ, npVerticesY, 'ro')                       
 
